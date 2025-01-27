@@ -2,9 +2,9 @@
 
 import Sidebar from "./components/Sidebar";
 import { useContext } from "react";
-import { UserContext } from "./layout";
 import TabNavigation from "./components/Toolbar";
 import HeatMap from "./components/HeatMap";
+import { UserContext } from "./context/UserContext";
 
 export default function Home() {
   const userContext = useContext(UserContext);
