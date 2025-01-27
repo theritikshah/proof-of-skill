@@ -15,7 +15,7 @@ const HeatMap = () => {
       <div>
         <div></div>
         {allSkills.map((skill) => {
-          return <div>{skill}</div>;
+          return <div key={skill}>{skill}</div>;
         })}
       </div>
       <div>
