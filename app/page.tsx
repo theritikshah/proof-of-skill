@@ -1,7 +1,7 @@
 "use client";
 
 import Sidebar from "./components/Sidebar";
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { UserContext } from "./layout";
 import TabNavigation from "./components/Toolbar";
 import HeatMap from "./components/HeatMap";
