@@ -49,6 +49,9 @@ const Sidebar = () => {
 
   const handleSelectUser = (user: User) => {
     setSelectedUsers((preUsers) => {
+      if (preUsers.some((u) => u.id === user.id)) {
+        return preUsers;
+      }
       return [...preUsers, user];
     });
   };

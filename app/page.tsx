@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Sidebar from "./components/Sidebar";
 import { useContext, useEffect, useState } from "react";
 import { UserContext } from "./layout";
@@ -14,7 +13,7 @@ export default function Home() {
     throw new Error("UserContext is null");
   }
 
-  const { selectedUsers, setSelectedUsers } = userContext;
+  // const { selectedUsers, setSelectedUsers } = userContext;
 
   return (
     <div
