@@ -1,6 +1,6 @@
 "use client";
 
-import { UserContext } from "@/app/layout";
+import { UserContext } from "@/app/context/UserContext";
 import React, { useContext } from "react";
 
 const Header = () => {
