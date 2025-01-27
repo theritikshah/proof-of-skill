@@ -22,7 +22,7 @@ const Sidebar = () => {
     throw new Error("UserContext is null");
   }
 
-  const { selectedUsers, setSelectedUsers, setAllSkills } = userContext;
+  const { setSelectedUsers, setAllSkills } = userContext;
 
   useEffect(() => {
     fetch("https://forinterview.onrender.com/people/")
